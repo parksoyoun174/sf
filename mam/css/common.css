@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'sc';
+    src: url(../fonts/Satturday Collection.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: '맑은 고딕', 'Malgun Gothic', "Dotum", "Satturday Collection", 'sc';
+}
+table{border-collapse:collapse;border-spacing:0}
+
+/*li장식제거*/
+li {
+    list-style: none;
+}
+
+/*a*/
+a {
+    text-decoration: none;
+    color: #3e3a39;
+    font-weight: 300;
+}
+
+.center {
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+/*img*/
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Noto Sans CJK KR', sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+
+.blind {
+    position: absolute;
+    top: -99999px;
+}
+
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+i,
+em,
+address {
+    font-style: normal;
+}
+
+label,
+button {
+    cursor: pointer;
+}
